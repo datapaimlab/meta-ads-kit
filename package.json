@@ -1,0 +1,24 @@
+{
+  "name": "meta-ads-kit",
+  "version": "1.0.0",
+  "description": "An open-source AI ad manager that replaces 20 minutes of Ads Manager clicking with a 2-minute summary over coffee.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datapaimlab/meta-ads-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/datapaimlab/meta-ads-kit/issues"
+  },
+  "homepage": "https://github.com/datapaimlab/meta-ads-kit#readme",
+  "dependencies": {
+    "@vishalgojha/social-cli": "^0.2.13"
+  }
+}

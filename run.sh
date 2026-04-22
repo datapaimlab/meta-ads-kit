@@ -19,6 +19,10 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 MODE="${1:-daily-check}"
 
+if [[ -x "$SCRIPT_DIR/node_modules/.bin/social" ]]; then
+  export PATH="$SCRIPT_DIR/node_modules/.bin:$PATH"
+fi
+
 # Route to the right skill script
 case "$MODE" in
   daily-check|daily|check|5questions|overview|campaigns|top-creatives|creatives|bleeders|losers|winners|tops|fatigue-check|custom)
